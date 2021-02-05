@@ -1,0 +1,18 @@
+{
+  "name": "my-db",
+  "version": "0.0.0",
+  "description": "none",
+  "license": "MIT",
+  "author": "Manolis Tsilikidis",
+  "devDependencies": {},
+  "main": "my_db.js",
+  "scripts": {
+    "start": "node my_db.js",
+    "migrate": "node db/migrate.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "2.18.1",
+    "node-fetch": "^2.6.1"
+  }
+}
