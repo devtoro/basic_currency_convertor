@@ -17,5 +17,5 @@ npm run migrate
 npm start
 ```
 
-- Visit /update in order to update DB vith conversion rates
-- Visit /convert?fromCur=CUR&toCur=CUR&value=19 where CUR use a currency (e.g. USD, EUR, GBP etc) in order to convert the passed value
+* Visit localhost:3001/update in order to update DB vith conversion rates
+* Visit localhost:3001/convert?fromCur=CUR&toCur=CUR&value=19 where CUR use a currency (e.g. USD, EUR, GBP etc) in order to convert the passed value
